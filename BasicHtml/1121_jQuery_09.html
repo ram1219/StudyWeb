@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>jQuery Basic</title>
+        <!-- <script src="js/jquery-3.5.1.js"></script> -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script>
+           $(document).ready(function() { 
+               $("#box").css({
+                   width : 100,
+                   height : 100,
+                   backgroundColor : "red"
+               }).animate({
+                   width : 300,
+                   opacity : 0.2
+               }, 500);
+           });
+        </script>
+    </head>
+    <body>
+        <div id="box"></div>
+    </body>
+</html>

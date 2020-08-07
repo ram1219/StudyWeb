@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>jQuery Basic</title>
+        <!-- <script src="js/jquery-3.5.1.js"></script> -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script>
+           $(document).ready(function() { 
+                $("button").click(function(){
+                    $(".page").fadeToggle('slow');
+                });
+           });
+        </script>
+    </head>
+    <body>
+        <button>Toggle Show</button>
+        <div class="page">
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <p></p>
+        </div>
+    </body>
+</html>
